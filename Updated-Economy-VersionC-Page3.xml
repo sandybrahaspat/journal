@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Revisions to Henry David Thoreau's manuscript of Walden</title>
+            <editor>Emma Annonio</editor>
+            <editor>Sandy Brahaspat</editor>
+            <editor>Anne Baranello</editor>
+            <editor>Emma Belson</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Final Project for ENGL 340, Literature and Literary Study in the Digital Age, Spring 2020, SUNY Geneseo.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Hungtington Library</repository>
+               <idno>HM 924</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author>Henry David Thoreau</author>
+                     <title>Walden</title>
+                  </msItem>
+               </msContents>
+            </msDesc>
+            <bibl>
+            A page from HM 924, the manuscript of Walden, "Economy", "Page 3", "Paragraph 2b", "Version C"
+         </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surface xml:id="hm924v3n436">
+         <graphic url="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/436/full/full/0/default.jpg"/>
+            <zone>
+               <note>We are encoding the revisions throughout the third page of Walden in Version C. We chose this page due to the variety of revisions such as additions and deletions via strikethroughs. The timeline focuses on how Thoreau reflects on his experience over time and how he chooses to revise his work based on this.</note>
+               <line>After all, always the first person</line>
+               <line>that is speaking. I should not talk</line>
+               <line>so much about myself if there were</line>
+               <line>anybody else whom I knew as well.</line>
+               <line>Unfortunately, I am <del rend="strikethrough">unluckily</del> confined to this</line>
+               <line>Theme by the narrowness of my</line>
+               <line>experience. <add place="above line"><handShift medium="pencil"/>Moreover</add> I <add place="above line"><handShift medium="pencil"/>for my own part</add> require of <del rend="strikethrough">a</del> <add place="above line"><handShift medium="pencil"/>every</add> writer</line>
+               <line><del rend="strikethrough">that he give me</del> a simple and</line> 
+               <line>sincere account of his own life,</line>
+               <line><del rend="strikethrough">and not so much</del> <add place="above line"><handShift medium="pencil"/>rather than</add> what he has</line>
+               <line>heard of other men's lives; some</line>
+               <line>such account as he would send to</line>
+               <line>his kindered from a distant land,</line>
+               <line><del rend="strikethrough">and</del><add place="above line"><handShift medium="pencil"/>for</add> if he has lived sincerely, it must</line>
+               <line>have been in a distant land to me</line>
+               <line><del rend="strikethrough">describing even his outward cir-</del></line>
+               <line><del rend="strikethrough">cumstances and what adventures</del> </line>
+               <line><del rend="striketrhough">he has had, as well as his thoughts</del></line>
+               <line><del rend="strikethrough">and feelings about them. If any</del></line>
+               <line><del rend="strikethrough">thing has yielded him pleasure</del></line>
+               <line><del rend="strikethrough">Or instruction, let him communicate</del></line>
+               <line><del rend="strikethrough">it.</del>Let the money-getter <unclear reason="illegible"></unclear> tell</line>
+               <line>us how much he loves wealth,</line>
+               <line>and what means he takes to</line>
+               <line>accumulate it. He should not</line>
+               <line>write on Foreign Missions. The </line>
+               <line>mechanic will naturally write a-</line>
+               <line>bout his trade, the farmer about</line>
+            </zone>
+         </surface>
+   </sourceDoc>
+</TEI>
