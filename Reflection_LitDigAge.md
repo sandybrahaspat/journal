@@ -1,4 +1,4 @@
-# End of the semester Reflection
+# End of the Semester Reflection
 
 As my senior year comes to a close, I am glad that I chose to enroll in Dr. Schacht's Digital Humanities course. I've become so much more confident with my own laptop and using the terminal window. While aspects of this course seemed daunting at first, like my irrational fear of making an error in my terminal window and consequently destroying my computer, it all definitely became much more manageable with practice. 
 
